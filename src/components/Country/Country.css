@@ -1,0 +1,6 @@
+.country {
+    margin: 10px;
+    border: 2px solid rgb(255, 199, 94);
+    border-radius: 15px;
+    background-color: bisque;
+}
