@@ -17,7 +17,7 @@ const Countries = () => {
         <div>
             <h1>Welcome to Rest Countries API</h1>
             <h2>Total Countries: {countries.length}</h2>
-            <div className='container'>
+            <div className='my-container bg-success-subtle'>
                 {
                     countries.map(country => <Country country={country} key= {country.cca3}></Country>)
                 }
